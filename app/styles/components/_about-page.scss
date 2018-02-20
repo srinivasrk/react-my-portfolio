@@ -1,0 +1,16 @@
+.profile_img {
+  width:25rem;
+  height: 35rem;
+}
+.img_center_container {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 10.5rem;
+}
+.about_container {
+  top:0;
+  position: absolute;
+  object-fit: cover !important;
+  width: 100% !important;
+}

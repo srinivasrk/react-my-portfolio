@@ -1,0 +1,32 @@
+.carousel_image {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.carousel_container{
+  top:0;
+  position: absolute;
+  height: 100% !important;
+  object-fit: cover !important;
+  width: 100% !important;
+}
+
+
+.header_text{
+  font-size: 2.5rem;
+  font-weight: 600;
+  position: absolute;
+  width: 100% !important;
+  top: 40%;
+  text-align: center;
+  color: #FFFFFF;
+  justify-content: center;
+}
+
+.intro_text {
+  color: #ffd84a;
+}
+
+.detail_text {
+  color: #75b7ff;
+}
