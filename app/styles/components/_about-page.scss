@@ -13,4 +13,53 @@
   position: absolute;
   object-fit: cover !important;
   width: 100% !important;
+  height: 100% !important;
+}
+
+.overlay_education {
+  position: absolute;
+  top: 30%;
+  left:10% !important;
+  margin-left:2rem;
+  width:20% !important;
+  color: #000000;
+  justify-content: center;
+  background-color: #FFFFFF;
+  opacity:0.7;
+  font-weight: 600;
+  height: 30%;
+  padding:1rem;
+  border-radius: 1.5rem;
+}
+
+.overlay_experience {
+  position: absolute;
+  top: 30%;
+  left:40% !important;
+  width:20% !important;
+  margin-left:2rem;
+  justify-content: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  opacity:0.7;
+  font-weight: 600;
+  height: 30%;
+  padding:1rem;
+  border-radius: 1.5rem;
+}
+
+.overlay_personal{
+  position: absolute;
+  top: 30%;
+  left:70% !important;
+  width:20% !important;
+  margin-left:2rem;
+  justify-content: center;
+  color: #000000;
+  background-color: #FFFFFF;
+  opacity:0.7;
+  font-weight: 600;
+  height: 30%;
+  padding:1rem;
+  border-radius: 1.5rem;
 }
