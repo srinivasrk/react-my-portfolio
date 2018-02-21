@@ -16,6 +16,23 @@
   height: 100% !important;
 }
 
+.icon_img {
+  width:2.5rem;
+  height: 2.5rem;
+  justify-content: center;
+  align-self: center;
+  margin-left: 1rem;
+  margin-top:0;
+  margin-bottom: 0.5rem;
+}
+
+.overlay_heading {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  color: #1779ba;
+  font-size: 0.9rem;
+}
+
 .overlay_education {
   position: absolute;
   top: 30%;
@@ -27,12 +44,17 @@
   background-color: #FFFFFF;
   opacity:0.7;
   font-weight: 600;
-  height: 30%;
+  font-size:0.85rem;
+  height: auto;
   padding:1rem;
   border-radius: 1.5rem;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .overlay_experience {
+  margin-top:0.5rem;
   position: absolute;
   top: 30%;
   left:40% !important;
@@ -43,7 +65,8 @@
   background-color: #FFFFFF;
   opacity:0.7;
   font-weight: 600;
-  height: 30%;
+  font-size:0.85rem;
+  height: auto;
   padding:1rem;
   border-radius: 1.5rem;
 }
@@ -59,7 +82,8 @@
   background-color: #FFFFFF;
   opacity:0.7;
   font-weight: 600;
-  height: 30%;
+  font-size:0.85rem;
+  height: auto;
   padding:1rem;
   border-radius: 1.5rem;
 }

@@ -17,7 +17,7 @@ var Home = createClass({
 
         <span className='intro_text' > Hi, I'm Srini & I am a </span>
         <br />
-        <TextLoop>
+        <TextLoop speed={1500}>
                      <span className='detail_text' > full stack web developer </span>
                      <span  className='detail_text'> C# .NET application developer</span>
                      <span  className='detail_text'> android applications developer</span>
