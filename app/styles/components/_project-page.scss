@@ -1,0 +1,32 @@
+.project_container {
+  overflow-x: auto;
+  background-color: #FFFFFF;
+  height: 100% !important;
+  position: absolute;
+  top:30%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 2rem;
+  width: 60%;
+  opacity: 0.95;
+}
+.project_item {
+  margin-top: 1rem;
+
+}
+.project_desc {
+  align-items: center;
+  justify-content: center;
+}
+.project_icon {
+  justify-content: center;
+  align-items: center;
+
+}
+.project_title {
+  margin-top:1rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-right: 8rem;
+}
