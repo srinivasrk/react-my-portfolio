@@ -11,24 +11,45 @@ var Projects = createClass({
         <img className="about_container" src ={ProjectImage} />
         <div className="project_container">
           <Row className="display project_item">
-          <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
-          <Column small={9} large={9} className="project_desc">  <p className="project_title"> PS Dashboard</p> </Column>
+            <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> PS Dashboard</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor ac metus venenatis placerat
+                non a lorem. Ut nec ex lobortis, tempus mauris nec, sodales turpis. Vivamus commodo eros at semper facilisis.
+                Proin interdum, arcu nec rutrum suscipit,
+                nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
+            </Column>
+
           </Row>
           <hr />
-            <Row className="display project_item">
+          <Row className="display project_item">
             <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
-            <Column small={9} large={9} className="project_desc">  <p className="project_title"> PS Dashboard</p> </Column>
-            </Row>
-            <hr />
-              <Row className="display project_item">
-              <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
-              <Column small={9} large={9} className="project_desc">  <p className="project_title"> PS Dashboard</p> </Column>
-              </Row>
-              <hr />
-                <Row className="display project_item">
-                <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
-                <Column small={9} large={9} className="project_desc">  <p className="project_title"> PS Dashboard</p> </Column>
-                </Row>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> Android - Feast of Fest</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor ac metus venenatis placerat
+                non a lorem. Ut nec ex lobortis, tempus mauris nec, sodales turpis. Vivamus commodo eros at semper facilisis.
+                Proin interdum, arcu nec rutrum suscipit,
+                nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
+            </Column>
+          </Row>
+          <hr />
+          <Row className="display project_item">
+            <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> Python API development</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor ac metus venenatis placerat
+                non a lorem. Ut nec ex lobortis, tempus mauris nec, sodales turpis. Vivamus commodo eros at semper facilisis.
+                Proin interdum, arcu nec rutrum suscipit,
+                nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
+            </Column>
+          </Row>
+          <hr />
+          <Row className="display project_item">
+            <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> C# - XtremIO Migration Assistant</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor ac metus venenatis placerat
+                non a lorem. Ut nec ex lobortis, tempus mauris nec, sodales turpis. Vivamus commodo eros at semper facilisis.
+                Proin interdum, arcu nec rutrum suscipit,
+                nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
+            </Column>
+          </Row>
                 <hr />
         </div>
       </div>
