@@ -16,6 +16,16 @@
   height: 100% !important;
 }
 
+.highlight_text {
+  color :  #1779ba !important;
+  text-decoration: underline;
+}
+
+.prof_details {
+  font-style: italic;
+  font-size: 0.8rem;
+}
+
 .icon_img {
   width:2.5rem;
   height: 2.5rem;
@@ -36,9 +46,9 @@
 .overlay_education {
   position: absolute;
   top: 30%;
-  left:10% !important;
+  left:2% !important;
   margin-left:2rem;
-  width:20% !important;
+  width:25% !important;
   color: #000000;
   justify-content: center;
   background-color: #FFFFFF;
@@ -54,11 +64,10 @@
 }
 
 .overlay_experience {
-  margin-top:0.5rem;
   position: absolute;
   top: 30%;
-  left:40% !important;
-  width:20% !important;
+  left:32% !important;
+  width:30% !important;
   margin-left:2rem;
   justify-content: center;
   color: #000000;
@@ -71,12 +80,14 @@
   border-radius: 1.5rem;
 }
 
+.feature_highlight {
+  color: green;
+}
 .overlay_personal{
   position: absolute;
   top: 30%;
-  left:70% !important;
-  width:20% !important;
-  margin-left:2rem;
+  left:68% !important;
+  width:30% !important;
   justify-content: center;
   color: #000000;
   background-color: #FFFFFF;

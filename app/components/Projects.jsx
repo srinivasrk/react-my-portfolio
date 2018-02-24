@@ -50,7 +50,18 @@ var Projects = createClass({
                 nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
             </Column>
           </Row>
-                <hr />
+          <hr />
+
+          <Row className="display project_item">
+            <Column small={3} large={3}>  <img className="project_icon" src = {WebApp} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> R - Programming - Recommender System</p>
+              <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in tortor ac metus venenatis placerat
+                  non a lorem. Ut nec ex lobortis, tempus mauris nec, sodales turpis. Vivamus commodo eros at semper facilisis.
+                  Proin interdum, arcu nec rutrum suscipit,
+                  nisi dui lacinia tellus, nec bibendum mauris orci eget ante. Vestibulum laoreet eget nisi in auctor. </p>
+            </Column>
+          </Row>
+          <hr />
         </div>
       </div>
     )
