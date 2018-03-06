@@ -16,6 +16,11 @@
   height: 100% !important;
 }
 
+.display {
+  top: 32%;
+
+}
+
 .highlight_text {
   color :  #1779ba !important;
   text-decoration: underline;
@@ -24,6 +29,13 @@
 .prof_details {
   font-style: italic;
   font-size: 0.8rem;
+  margin-left:2rem;
+  color: #000000;
+  justify-content: center;
+  background-color: #DDDDDD;
+  opacity:0.7;
+  justify-content: center;
+  align-items: center;
 }
 
 .icon_img {
@@ -46,11 +58,9 @@
 .overlay_education {
   position: absolute;
   top: 30%;
-  left:2% !important;
-  margin-left:2rem;
-  width:25% !important;
+  margin-left:5%;
   color: #000000;
-  justify-content: center;
+  width:90%;
   background-color: #FFFFFF;
   opacity:0.7;
   font-weight: 600;
