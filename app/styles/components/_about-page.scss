@@ -1,7 +1,34 @@
 .profile_img {
-  width:25rem;
-  height: 35rem;
+  width:8rem;
+  height: 8rem;
+  float:left;
+  margin-right: 1.5rem;
+  margin-left: 2rem;
 }
+
+.my_desc{
+  font-weight: 500;
+  font-size: 1.5rem;
+  padding:1rem;
+  margin-left: 12rem;
+  padding-left:3rem;
+  padding-right:5rem;
+  padding-bottom:1rem;
+  padding-top:2rem;
+  font-family: "Courgette";
+}
+
+.my_desc_2{
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "Comfortaa";
+  padding-left: 2rem;
+  padding-right: 2rem;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
 .img_center_container {
   align-items: center;
   justify-content: center;
@@ -11,6 +38,7 @@
 .about_container {
   top:0;
   position: absolute;
+
   object-fit: cover !important;
   width: 100% !important;
   height: 100% !important;
@@ -61,6 +89,7 @@
   margin-left:5%;
   color: #000000;
   width:90%;
+  height: 60% !important;
   background-color: #FFFFFF;
   opacity:0.7;
   font-weight: 600;
@@ -70,7 +99,8 @@
   border-radius: 1.5rem;
   justify-content: center;
   align-items: center;
-
+  overflow-y: auto;
+  overflow-x: auto;
 }
 
 .overlay_experience {

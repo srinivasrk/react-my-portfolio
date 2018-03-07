@@ -1,16 +1,47 @@
-.tiny_logos {
-  width: 2.5rem;
-  height: 2.5rem;
+.email_logo {
+  width:5rem;
+  height: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.linkedin_logo{
+  width: 4rem;
+  height: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.bitbucket_logo{
+  width: 6rem;
+  height: 6rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.cv_logo{
+  width: 8rem;
+  height: 3rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .details_title {
-  font-size: 3rem;
+  font-size: 1.9rem;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.details_SmallPara {
+  font-size: 1rem;
   text-align: center;
   justify-content: center;
 }
 
-.details_SmallPara {
-  font-size: 1.5rem;
+.logo_list{
+  width: 100%;
+  justify-content:center;
   text-align: center;
-  justify-content: center;
+  margin-top:2rem;
 }
