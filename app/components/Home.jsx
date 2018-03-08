@@ -22,7 +22,7 @@ var Home = createClass({
                      <span  className='detail_text'> C# .NET application developer</span>
                      <span  className='detail_text'> Machine learning enthusiast</span>
                      <span  className='detail_text'> android applications developer</span>
-                     <span className='detail_text'> I am a freelance developer</span>
+                     <span className='detail_text'> freelance developer</span>
                      <span  className='detail_text'> zen follower </span>
         </TextLoop>
 
