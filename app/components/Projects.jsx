@@ -2,12 +2,15 @@ var React = require('react');
 var createClass = require('create-react-class');
 import Foundation from 'react-foundation';
 var {Menu, MenuItem, Column, Thumbnail,Column, Row,isColumn} = require('react-foundation');
+
 import ProjectImage from './project_background.png';
 import WebApp from './web-app.png';
 import AndroidLogo from './android_logo.png';
 import PythonLogo from './python_logo.png';
 import CSharpLogo from './c_sharp_logo.png';
 import RLogo from './r_logo.png';
+import NodeLogo from './nodejs_logo.png';
+
 var Projects = createClass({
   render:function(){
     return(
@@ -23,10 +26,33 @@ var Projects = createClass({
 
           </Row>
           <hr />
+
+          <Row className="display project_item">
+            <Column small={3} large={3}>  <img className="project_icon" src = {NodeLogo} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> API development NodeJS, MongoDB and ExpressJS </p>
+              <p> Using NodeJS and MongoDB built a API to track the todo list. A application with RESTFUL API's to add new item todo, manage and update todos,
+              all handled using ExpressJS. This is hosted on an amazon EC2 instance </p>
+            </Column>
+
+          </Row>
+          <hr />
+
+          <Row className="display project_item">
+            <Column small={3} large={3}>  <img className="project_icon" src = {RLogo} /> </Column>
+            <Column small={9} large={9} className="project_desc">  <p className="project_title"> R - Programming - Recommender System</p>
+              <p> Recommender systems are machine learning techniques to provide recommendation based on exisiting data.
+              In this project we will understand the working of "RecommenderLab" and perform an User Based Collaborative
+              Filtering with R and Postgres </p>
+            </Column>
+          </Row>
+          <hr />
+
           <Row className="display project_item">
             <Column small={3} large={3}>  <img className="project_icon" src = {AndroidLogo} /> </Column>
             <Column small={9} large={9} className="project_desc">  <p className="project_title"> Android - Feast of Fest</p>
-              <p> This android application hosts the events and fests which are conducted across the city. We gather info from various resources and manage the registration and help you get the right information about the events.
+              <p> This android application hosts the events and fests which are conducted across the city.
+              We gather info from various resources and manage the registration and help you get the right information
+              about the events.
                 Developed with native android technology & PHP-MySQL backend this application has over 2000+ downloads. </p>
             </Column>
           </Row>
@@ -47,18 +73,15 @@ var Projects = createClass({
           <Row className="display project_item">
             <Column small={3} large={3}>  <img className="project_icon" src = {CSharpLogo}  /> </Column>
             <Column small={9} large={9} className="project_desc">  <p className="project_title"> C# - XtremIO Migration Assistant</p>
-              <p> This application is built on C# and .Net, with XtremIO Migration assistant the cost of migration from any 3rd party device or EMC array to XtremIO is reduced. The overall efficiency of migration is improved with automated scripts generation. With back end SQLite this stand alone application has a user-base across the globe. </p>
+              <p> This application is built on C# and .Net, with XtremIO Migration assistant the cost of migration from
+              any 3rd party device or EMC array to XtremIO is reduced. The overall efficiency of migration
+              is improved with automated scripts generation. With back end SQLite this stand alone application
+              has a user-base across the globe. </p>
             </Column>
           </Row>
           <hr />
 
-          <Row className="display project_item">
-            <Column small={3} large={3}>  <img className="project_icon" src = {RLogo} /> </Column>
-            <Column small={9} large={9} className="project_desc">  <p className="project_title"> R - Programming - Recommender System</p>
-              <p> Recommender systems are machine learning techniques to provide recommendation based on exisiting data In this project we will understand the working of "RecommenderLab" and perform an User Based Collaborative Filtering with R and Postgres </p>
-            </Column>
-          </Row>
-          <hr />
+
         </div>
       </div>
     )

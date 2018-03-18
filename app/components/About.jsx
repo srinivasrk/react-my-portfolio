@@ -21,12 +21,14 @@ var About = createClass({
               <br />
               </p>
             <p className="my_desc_2">
-              I am a programmer by heart and soul. I write code to solve problems and make things easier.
-              I love to travel and meet people. I have 3 years of experience working at EMC as an Sr. Analyst &currently I am a masters of engineering student at University of Cincinnati.
+              I am a programmer by heart and soul, I am obsessed with learning new technologies and tinkering around with new frameworks.
+              I graduated bachelors with honors in 2014 and started my professional career at EMC. Currently I am pursuing masters from University of Cincinnati.
+
             </p>
             <p className="my_desc_2">
               I worked on technologies like .NET, C# windows application development. I am also experienced in
-              ASP.NET and web development. I work as an MATLAB teaching assistant for University of Cincinnati
+              ASP.NET and web development using jQuery, NodeJS, ExpressJS & React.
+              I currently work as an MATLAB teaching assistant for University of Cincinnati
 
             </p>
            </div>
